@@ -45,7 +45,8 @@
     "weather-js": "^2.0.0",
     "xbans": "^1.0.0",
     "ytdl": "^0.13.1",
-    "ytdl-core": "^0.29.7"
+    "ytdl-core": "^0.29.7",
+    "ffmpeg-binaries": "^4.0.0"
   },
   "engines": {
     "node": ">=12.9.1"
