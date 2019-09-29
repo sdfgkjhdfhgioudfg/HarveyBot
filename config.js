@@ -1,6 +1,6 @@
 module.exports.CONFIG = () => {
 	return {
-		BOT_TOKEN : 'NjEzMzM1NTM5MTE3OTgxNjk2.XZA7Ug.1A14Wr_b1GiQu55emkI4gynsHME',
+		BOT_TOKEN : process.env.TOKEN,
 		PREFIX : 'h!',
 
 		color : {
@@ -29,8 +29,8 @@ module.exports.CONFIG = () => {
 			coin : '<:coins:615773638133547020> '
 		},
 
-		YouTube_API_V3: 'AIzaSyB9XioR1TEqLSOBVFG80DjyMOAYtka5oIk',
-		ConnectDB : 'mongodb://harvey:ghhfjjrufrry@subox.pp.ua:2025/DB_HARVEY',
+		YouTube_API_V3: process.env.YTAV3,
+		ConnectDB : process.env.DB,
 
     	number : {
     		MinVolue : 5,
